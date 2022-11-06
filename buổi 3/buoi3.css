@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(254, 210, 254);
+}
+input {
+    color: rgb(255, 235, 252);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 35px;
+    border: 0;
+    background-color: rgb(145, 142, 222);
+    border-radius: 5px;
+    box-shadow: 0 10px 40px rgb(246, 150, 234), 0 0 0 20px rgb(253, 203, 246);
+    outline: none;
+
+}
+input[type="text"]{
+    width: 50% ;
+    height:  50px;
+    font-size: 20px;
+    line-height: 1;
+}

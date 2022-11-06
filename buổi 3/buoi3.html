@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./buoi3.css">
+</head>
+<body>
+    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for drink..."  title="Type in a name">
+
+    <ul id="myUL">
+        <li>Mojito</li>
+        <li>Blue Hawail</li>
+
+        <li>Gin</li>
+        <li>B52</li>
+        
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+
+
+
+
+
+    <script>
+        let number = [ 1, 2, 3, 4, 5]
+        console.log(number[2])
+        console.log(number.length);
+
+        for(let i = 0; i < number.length; i++){
+            console.log(number[i]);
+        }
+
+        number.push(6)
+        console.log(number.push(6));
+        console.log(number)
+
+        var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+        console.log(days)
+        days.splice(2,1)
+        console.log (days)
+        days.splice(2,1,'test')
+        console.log(days)
+        console.log("days.includes('Sunday')",days.includes('Sunday'))
+
+        days.push("Munday")
+        console.log("days.push('Monday')",days)
+        console.log("day.indexOf('Monday',2)", days.indexOf('Monday,2'))
+
+        days.includes('Sunday')
+        console.log(days.includes('Sunday'))
+
+
+
+        let myComputer = {
+         type: "laptop",
+         brand: "Sony",
+         os: "Windows 7",
+          graphicCard: "NVIDIA",
+        };
+        console.log(myComputer.os)
+        console.log(myComputer['type']);
+        myComputer['brand'] ='LG'
+        myComputer.price =1000
+        console.log(myComputer)
+        delete myComputer.graphicCard
+
+
+        let  str = "xin chào"
+        for (let s of str){
+            console.log(s);
+        }
+        for (let num of number){
+            console.log(num);
+        }
+        let students = [
+            {
+                name: 'tri'
+            },
+            {
+               name:'quan'
+            },
+            {
+                name:'ngoc'
+            }
+        ]
+        console.log(students);
+        for (let stu of students){
+            console.log(stu);
+        }
+
+        for (let key in myComputer){
+            console.log(key);
+        }
+       
+
+
+    </script>
+</body>
+</html>
